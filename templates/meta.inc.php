@@ -1,0 +1,64 @@
+<?php 
+$str = <<<EOF
+    <Name>PL999_name</Name>
+    <Title>{$data['title']}</Title>
+    <Subject>{$data['subject']}</Subject>
+    <Author>Scripter</Author>
+    <CreationDate>{$data['created']}</CreationDate>
+    <LastSaved>{$data['updated']}</LastSaved>
+    <ScheduleFromStart>1</ScheduleFromStart>
+    <StartDate>2013-01-10T10:00:00</StartDate>
+    <FinishDate>2049-12-31T23:59:00</FinishDate>
+    <FYStartDate>1</FYStartDate>
+    <CriticalSlackLimit>0</CriticalSlackLimit>
+    <CurrencyDigits>2</CurrencyDigits>
+    <CurrencySymbol>$</CurrencySymbol>
+    <CurrencyCode>CAD</CurrencyCode>
+    <CurrencySymbolPosition>0</CurrencySymbolPosition>
+    <CalendarUID>1</CalendarUID>
+    <DefaultStartTime>08:00:00</DefaultStartTime>
+    <DefaultFinishTime>17:00:00</DefaultFinishTime>
+    <MinutesPerDay>480</MinutesPerDay>
+    <MinutesPerWeek>2400</MinutesPerWeek>
+    <DaysPerMonth>20</DaysPerMonth>
+    <DefaultTaskType>0</DefaultTaskType>
+    <DefaultFixedCostAccrual>3</DefaultFixedCostAccrual>
+    <DefaultStandardRate>0</DefaultStandardRate>
+    <DefaultOvertimeRate>0</DefaultOvertimeRate>
+    <DurationFormat>7</DurationFormat>
+    <WorkFormat>7</WorkFormat>
+    <EditableActualCosts>0</EditableActualCosts>
+    <HonorConstraints>0</HonorConstraints>
+    <InsertedProjectsLikeSummary>0</InsertedProjectsLikeSummary>
+    <MultipleCriticalPaths>0</MultipleCriticalPaths>
+    <NewTasksEffortDriven>0</NewTasksEffortDriven>
+    <NewTasksEstimated>0</NewTasksEstimated>
+    <SplitsInProgressTasks>0</SplitsInProgressTasks>
+    <SpreadActualCost>0</SpreadActualCost>
+    <SpreadPercentComplete>0</SpreadPercentComplete>
+    <TaskUpdatesResource>1</TaskUpdatesResource>
+    <FiscalYearStart>0</FiscalYearStart>
+    <WeekStartDay>0</WeekStartDay>
+    <MoveCompletedEndsBack>0</MoveCompletedEndsBack>
+    <MoveRemainingStartsBack>0</MoveRemainingStartsBack>
+    <MoveRemainingStartsForward>0</MoveRemainingStartsForward>
+    <MoveCompletedEndsForward>0</MoveCompletedEndsForward>
+    <BaselineForEarnedValue>0</BaselineForEarnedValue>
+    <AutoAddNewResourcesAndTasks>1</AutoAddNewResourcesAndTasks>
+    <CurrentDate>{$data['current_date']}</CurrentDate>
+    <MicrosoftProjectServerURL>0</MicrosoftProjectServerURL>
+    <Autolink>0</Autolink>
+    <NewTaskStartDate>0</NewTaskStartDate>
+    <DefaultTaskEVMethod>0</DefaultTaskEVMethod>
+    <ProjectExternallyEdited>0</ProjectExternallyEdited>
+    <ExtendedCreationDate>1984-01-01T00:00:00</ExtendedCreationDate>
+    <ActualsInSync>1</ActualsInSync>
+    <RemoveFileProperties>0</RemoveFileProperties>
+    <AdminProject>0</AdminProject>
+    <OutlineCodes/>
+    <WBSMasks/>
+    <ExtendedAttributes/>
+
+EOF;
+
+return $str;
